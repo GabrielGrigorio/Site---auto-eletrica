@@ -540,3 +540,28 @@ footer {
     flex: 1 1 auto;
   }
 }
+.conteudo-footer {
+    background-color: #f8f9fa; /* Cor de fundo do footer */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.redes-sociais {
+    display: flex; /* Usar flexbox para alinhar os ícones */
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    gap: 15px; /* Espaçamento entre os ícones */
+}
+
+.redes-sociais a {
+    color: #000; /* Cor padrão dos ícones */
+    transition: transform 0.2s; /* Efeito de transição ao passar o mouse */
+}
+
+.redes-sociais a:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
+
+.redes-sociais svg {
+    width: 30px; /* Largura dos ícones */
+    height: 30px; /* Altura dos ícones */
+}
