@@ -8,15 +8,16 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: #fff; /* Texto branco */
 }
 
 header {
-    background: #007BFF;
+    background: #ff6600; /* Laranja */
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav ul {
@@ -32,6 +33,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
@@ -40,7 +42,9 @@ main {
 
 h2 {
     margin-top: 20px;
-    color: #007BFF;
+    color: #ff6600; /* Laranja */
+    border-bottom: 2px solid #ff6600; /* Linha abaixo do título */
+    padding-bottom: 5px;
 }
 
 ul {
@@ -48,8 +52,16 @@ ul {
     margin-left: 20px;
 }
 
+ul li {
+    margin: 5px 0;
+}
+
 form {
     margin-top: 20px;
+    background: #333; /* Fundo do formulário */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 form label {
@@ -61,29 +73,45 @@ form input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ff6600; /* Borda laranja */
     border-radius: 5px;
+    background: #222; /* Fundo do input */
+    color: #fff; /* Texto do input */
+}
+
+form input::placeholder {
+    color: #ccc; /* Placeholder cinza claro */
 }
 
 form button {
-    background: #007BFF;
+    background: #ff6600; /* Laranja */
     color: #fff;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s;
 }
 
 form button:hover {
-    background: #0056b3;
+    background: #e65c00; /* Laranja mais escuro ao passar o mouse */
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: #333; /* Fundo escuro */
     color: #fff;
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilo para ícones ou imagens relacionadas a auto elétrica */
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
