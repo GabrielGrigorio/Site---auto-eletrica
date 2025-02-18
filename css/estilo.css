@@ -372,7 +372,22 @@ footer {
 .conteudo-footer ul {
   gap: 5px;
 }
+.conteudo-footer svg {
+  fill: #E4405F; /* Cor do Instagram */
+  margin-right: 5px; /* Espaço entre o ícone e o texto */
+}
 
+.conteudo-footer a {
+  text-decoration: none; /* Remove o sublinhado do link */
+  color: #E4405F; /* Cor do texto do link */
+}
+
+.conteudo-footer a:hover {
+  color: #C13584; /* Cor do texto ao passar o mouse */
+}
+.bi-whatsapp:hover {
+  fill: #128C7E; /* Cor mais escura do WhatsApp */
+}
 .nav-footer {
   display: flex;
   flex-direction: column;
