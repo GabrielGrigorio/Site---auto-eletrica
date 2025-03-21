@@ -1,0 +1,17 @@
+{
+  "name": "oficina-do-urso",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Website da Oficina do Urso",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
